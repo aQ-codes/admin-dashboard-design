@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- parent container  -->
+
+     <div class="container main-container">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <header>
+                <div class="part1">
+                    <img src="../public/assets/icons/grain.svg" alt="Logo" class="logo">
+                    <h3>E-Dashboard</h3>
+                </div>
+               
+                <div id="toggle" class="open">
+                    <img src="../public/assets/icons/menu_open.png"  alt="menu icon">
+                </div>
+                <div id="toggle" class="closed">
+                    <img src="../public/assets/icons/menu2.svg"  alt="menu icon">
+                </div>
+            </header>
+            <div class="profile">
+                <!-- <img src="../public/assets/images/company.svg" alt="Profile" class="profile-pic"> -->
+                <div class="profile-icon">A</div>
+                <span class="profile-name">Alphalinx inc.</span>
+                <img src="../public/assets/icons/expand_more.svg" alt="">
+            </div>
+            <!-- navigation bar -->
+            <ul class="menu">
+                <li class="active"><img class="ms" src="../public/assets/icons/dashboard.svg" alt="Icon1"><a href="">Dashboard</a></li>
+                <li class="dropdown">
+                    <img src="../public/assets/icons/add_chart.svg" alt="Icon2"> My Business
+                    <span><img class="droparrow" src="../public/assets/icons/arrow_drop_down.svg" alt=""></span>
+                </li>
+                <li class="dropdown">
+                    <img src="../public/assets/icons/dollar.svg" alt="Icon2"> Financial Resources
+                    <span><img class="droparrow" src="../public/assets/icons/arrow_drop_down.svg" alt=""></span>
+                </li>
+                <li><img src="../public/assets/icons/mailbox.svg" alt="Icon1"><a href="">Mailbox</a></li>
+                <li><img src="../public/assets/icons/airplane_ticket.svg" alt="Icon1"><a href="">Visa Center</a></li>
+                <li><img class="ms" src="../public/assets/icons/quiz.svg" alt="Icon1"><a href="">Compliance</a>
+                    <span class="badge">02</span>
+                </li>
+            </ul>
+            <!-- end of navigation bar  -->
+            <!-- bottom menu  -->
+            <div class="bottom-menu">
+                <li><img class="mb" src="../public/assets/icons/notifications.svg" alt="Icon1"><a href="">Notifications</a></li>
+                <li><img class="db" src="../public/assets/icons/help.svg" alt="Icon1"><a href="">Help Center</a>
+                    <img class="vert" src="../public/assets/icons/more_vert.svg" alt="">
+                </li>
+                <div class="profile">
+                    <div class="profile-icon">J</div>
+                    <div class="info">
+                        <span class="name">Jacobe James</span>
+                        <span class="email">Jacobejames@gmail.com</span>
+                    </div>
+                    <img class="vert" src="../public/assets/icons/more_vert.svg" alt="">
+                </div>
+            </div>
+            <!-- end of bottom menu -->
+        </nav>
+         <!-- end of sidebar  -->
+    
+        <!-- Main Section -->
+        <main class="main-content">
+            <!-- First Sub Part -->
+
+            <div class="container c1">
+
+                <div class="greetings">
+                    <div class="heading">
+                        <h2>Good morning, <span>Emily!</span></h2>
+                        <img src="../public/assets/icons/hi.svg" alt="">
+                    </div>
+                    <h3>Welcome back!</h3>
+                </div>
+                
+                <section class="overview">
+                    <div class="cards">
+                        <!-- notes card  -->
+                        <div class="card notes">
+                            <div class="part1">
+                                <img class="abs" src="../public/assets/icons/docs.svg" alt="">
+                                <p>All your <span>documents </span>are<br><span> up to date!</span> </p>
+                                <img src="../public/assets/icons/auto_awesome.svg" alt="">
+                            </div>
+                            <div class="part2">
+                                <p>You have <span>3 upcoming</span> document updates in January.</p>
+                                <a href=""><img src="../public/assets/icons/arrow_forward_ios.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <!-- status card  -->
+                        <div class="card status">
+                            <div>
+                                <img src="../public/assets/icons/graph.svg" alt="">
+                                <!-- <h1>21 <span>Applications</span></h1> -->
+                            </div>
+                            <ul class="bullets">
+                                <li class="yellow">Incomplete</li>
+                                <li class="red">Pending approval</li>
+                                <li class="green">Approved</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+               
+
+                <section class="mailbox grid">
+                    <div class="heading">
+                        <h3>Mailbox</h3>
+                        <h3 class="mb">Mail</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <p>Check on your all your mail in one go.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <img src="../public/assets/icons/verified.svg" alt="Stat1">
+                            <span>New</span>
+                            <span>23</span>
+                        </div>
+                        <div class="bar stat"></div>
+                        <div class="stat">
+                            <img src="../public/assets/icons/chat.svg" alt="Stat2">
+                            <span>Requested</span>
+                            <span>23</span>
+                        </div>
+                        <div class="bar stat"></div>
+                        <div class="stat">
+                            <img src="../public/assets/icons/bell.svg" alt="Stat3">
+                            <span>Actions Taken</span>
+                            <span>23</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="grid">
+                    <div class="heading">
+                        <h3>Legal Compliance</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <p>Keep your requirements up to date.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <img src="../public/assets/icons/verified.svg" alt="Stat1">
+                            <span>Reminders</span>
+                            <span>23</span>
+                        </div>
+                        <div class="bar stat"></div>
+                        <div class="stat">
+                            <img src="../public/assets/icons/chat.svg" alt="Stat2">
+                            <span>In Progress</span>
+                            <span>23</span>
+                        </div>
+                        <div class="bar stat"></div>
+                        <div class="stat">
+                            <img src="../public/assets/icons/bell.svg" alt="Stat3">
+                            <span>To approve</span>
+                            <span>23</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- end of first sub part -->
+    
+            <!-- Second Sub Part -->
+            <div class="container c2">
+                <!-- tasks  -->
+                <div class="tasks">
+                    <div class="heading">
+                        <h3>Tasks</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="task-links">
+                        <a href="#" class="sel">My tasks</a>
+                        <a href="#">Overdue</a>
+                        <a href="#">Assigned by me</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tasks</th>
+                                <th>Category</th>
+                                <th>Due Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Update Tax Document for Alphalinx...</td>
+                                <td>Compliance</td>
+                                <td>23/11/23</td>
+                                <td><button class="btn">Request sent</button></td>
+                            </tr>
+                            <tr>
+                                <td>Update KYC document</td>
+                                <td>Compliance</td>
+                                <td>23/11/23</td>
+                                <td><button class="btn">Request sent</button></td>
+                            </tr>
+                            <tr>
+                                <td>Add clearer photo for visa application</td>
+                                <td>Visa center</td>
+                                <td>23/11/23</td>
+                                <td><button class="btn">Pending Action</button></td>
+                            </tr>
+                            <tr>
+                                <td>Document not clear: please add new file</td>
+                                <td>Visa center</td>
+                                <td>23/11/23</td>
+                                <td><button class="btn">Pending Action</button></td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+
+                    <!-- mobile view div  -->
+                     <div class="table-mb">
+
+                        <div class="row">
+                            <h3>Update Tax Document for Alphalinx...</h3>
+                            <div class="items">
+                                <div class="item">
+                                    <h3>Category</h3>
+                                    <span>Compliance</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Due Date</h3>
+                                    <span>23/11/23</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Status</h3>
+                                    <span><button class="btn">Request sent</button></span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row">
+                            <h3>Update KYC document</h3>
+                            <div class="items">
+                                <div class="item">
+                                    <h3>Category</h3>
+                                    <span>Compliance</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Due Date</h3>
+                                    <span>23/11/23</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Status</h3>
+                                    <span><button class="btn">Request sent</button></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <h3>Add clearer photo for visa application</h3>
+                            <div class="items">
+                                <div class="item">
+                                    <h3>Category</h3>
+                                    <span>Visa center</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Due Date</h3>
+                                    <span>23/11/23</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Status</h3>
+                                    <span><button class="btn">Pending Action</button></span>
+                                </div>
+                            </div>     
+                        </div>
+
+                        <div class="row">
+                            <h3>Document not clear: please add new file</h3>
+                            <div class="items">
+                                
+                                <div class="item">
+                                    <h3>Category</h3>
+                                    <span>Visa center</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Due Date</h3>
+                                    <span>23/11/23</span>
+                                </div>
+                                <div class="item">
+                                    <h3>Status</h3>
+                                    <span><button class="btn">Pending Action</button></span>
+                                </div>
+                            </div>
+                        </div>
+                     
+                    </div>
+
+                </div>
+                <!-- end of tasks  -->
+
+                <!-- payment history  -->
+                <div class="payments">
+                    <div class="heading">
+                        <h3>Payment history</h3>
+                        <h3 class="mb">Transaction history</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="payments-links">
+                        <a href="#" class="sel">My tasks</a>
+                        <a href="#">Overdue</a>
+                        <a href="#">Assigned by me</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Transaction ID</th>
+                                <th>Date of transaction</th>
+                                <th>Amount</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>23/01/19</td>
+                                <td>$5.99</td>
+                                <td>Mailbox</td>
+                            </tr>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>22/01/19</td>
+                                <td>$99</td>
+                                <td>Registration (upgrade)</td>
+                            </tr>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>21/01/19</td>
+                                <td>$5.99</td>
+                                <td>Mailbox</td>
+                            </tr>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>19/01/19</td>
+                                <td>$5.99</td>
+                                <td>Mailbox</td>
+                            </tr>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>9/01/19</td>
+                                <td>$5.99</td>
+                                <td>Mailbox</td>
+                            </tr>
+                            <tr>
+                                <td>#764657758</td>
+                                <td>23/01/19</td>
+                                <td>$5.99</td>
+                                <td>Mailbox</td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+
+                    <div class="table-mb">
+                        <div class="row active">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                                <div class="item other">
+                                    <span class="header">Description</span>
+                                    <span>Mailroom</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-up.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-down.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-down.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-down.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-down.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="item">
+                                    <h3>#764657758</h3>
+                                    <span>23/01/19</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item">
+                                    <h3>$5.99  <span><img src="../public/assets/icons/arrow-down.svg"></span>
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                     </div>
+
+                </div>
+            </div>
+
+            <!-- end of second sub part  -->
+
+        </main>
+        <!-- end of main section  -->
+        
+     </div>
+
+     <!-- end of parent container  -->
+
+    <script src="scripts.js"></script>
+</body>
+</html>
