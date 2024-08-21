@@ -64,6 +64,7 @@
 
 .sidebar header #toggle{
     margin-top: 6px;
+    cursor: pointer;
 
 }
 
@@ -82,6 +83,8 @@
     margin-bottom: 16px;
     font-size: 14px;
     font-weight: 400;
+    cursor: pointer;
+
 }
 
 .profile-icon {
@@ -110,6 +113,7 @@
     width: 224px;
     gap: 8px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .menu li:hover, .bottom-menu li:hover{
@@ -151,6 +155,8 @@ li img.droparrow{
 
 .bottom-menu .profile{
     padding : 8px;
+    cursor: pointer;
+
 }
 
 .bottom-menu .profile-icon{
@@ -511,7 +517,7 @@ tbody td button {
     display: none;
 }
 
-/* responsive  */
+/* responsive  design*/
 
 @media (max-width: 1280px) {
 
@@ -528,7 +534,7 @@ tbody td button {
 
 /* mobile responsive  */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .main-container {
         flex-direction: column;
     }
@@ -717,6 +723,7 @@ tbody td button {
         font-size: 16px;
         font-weight: 600;
         color: var(--color9);
+        cursor: pointer;
     }
 
     .payments .table-mb .item:first-child span{
